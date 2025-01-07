@@ -1,0 +1,297 @@
+input {
+    border-radius: 5px;
+      border: 0;
+      padding-left: 10px;
+      background-color: #D9D9D9;
+  }
+  
+  .datosUsuario input {
+    height: 40px;
+    width: 50%;
+    margin-top: 10px;
+  }
+
+  /*-------------Estilos Encabezado-------------*/
+.Encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #046497;
+    height: 8vh;
+    color: #FD9A04;
+    font-family: 'Alatsi';
+    margin-bottom: 5%;
+}
+  
+  .Encabezado div {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    height: 90%;
+  }
+  
+.en-empleado{
+  justify-content: flex-end;
+}
+
+  .tituloEncabezado {
+    display: flex;
+    flex-direction: column;
+    width: 80% !important;
+    height: 100% !important;
+  }
+  
+  .Encabezado a {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    text-decoration: none !important;
+  }
+  
+  .is-active {
+    pointer-events: none;
+    background-color: #046497;
+  }
+  
+  .Encabezado h1, h3{
+    margin: 0;
+    height: 50%;
+    font-family: fantasy;
+    font-size: 130%;
+  }
+  
+  .Encabezado h1 {
+    font-size: 130%
+  }
+  
+  .Encabezado h3 {
+    font-size: 100%;
+  }
+  
+  .Encabezado img {
+    height: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .notificaciones{
+    display: flex !important;
+    align-items: center;
+    justify-content: flex-end !important;
+  }
+  .opc-salir {
+    height: 50% !important;
+    transform: rotate(180deg);
+  }
+  .opc-noti {
+    height: 50% !important;
+  }
+  .Opc-Encabezado {
+    display: flex !important;
+    justify-content: flex-end !important;
+    align-items: center;
+  }
+
+  /*-------------Estilos Login-------------*/
+.seccionLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 84%;
+  }
+  
+  .Logo3 {
+    width: 15%;
+    background-color: linear-gradient(to right, #ff0000, #00ff00)
+  }
+  
+  .datosUsuario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+  }
+  
+  /*.datosUsuario input {
+    border-radius: 15px;
+    background-color: #D9D9D9;
+    height: 40px;
+    width: 50%;
+    border: 0;
+    padding-left: 10px;
+    margin-top: 10px;
+  }*/
+  
+  .datosUsuario label {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    margin-bottom: 10px;
+    font-style: italic;
+  }
+  
+  .buttonInicio {
+    width: 52%;
+    height: 40px;
+    background-color: rgba(13, 27, 51, 0.80);
+    border-radius: 15px;
+    color: white;
+    font-size: 1em;
+    border: 0;
+    text-align: center;
+    text-decoration: none !important;
+  }
+  
+  .buttonInicio div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: 'Oxygen', sans-serif;
+  }
+  
+  .error-message {
+    width: 80%;
+    font-size: 1em;
+    background-color: yellow;
+    color: red;
+  }
+
+  /*--------------------PRINCIPAL-----------------------*/
+  .btn-principal {
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+  }
+
+.productos{
+    width: 100%;
+    padding: 1%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.producto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1%;
+}
+
+.card{
+    height: 100%;
+}
+
+.btn-producto{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-producto input{
+    width: 80%;
+}
+
+.btn-producto button{
+    width: 20%;
+    padding: 0;
+}
+
+
+/*--------------------DETALLE FACTURA-----------------------*/
+.detalleCliente{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    padding-bottom: 5%;
+}
+
+.detalleCliente div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.detalleCliente input{
+    margin-bottom: 1%;
+}
+
+.detalle {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.totales div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.detalle table{
+    margin: 0;
+}
+
+.scc-pago {
+  margin: 5%;
+  padding: 1%;
+}
+
+.scc-pago div {
+  padding: 1%;
+}
+
+.metodopago{
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+}
+
+.metodopago input{
+  margin-bottom: 10%;
+}
+
+/*---------------REPORTERIA ------------------*/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+header img {
+  height: 50px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+table th, table td {
+  border: 1px solid #666;
+  padding: 10px;
+  text-align: center;
+}
+table th {
+  background-color: #555;
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+.button-blue {
+  background-color: #007bff;
+}
+.button-orange {
+  background-color: #ff6600;
+}

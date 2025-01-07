@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*ESTILOS DE LA PAGINA PRINCIPAL O DEL INDEX.HTML*/
+
+link {
+  height: 20px;
+}
+
+body {
+  display: grid;
+  /*grid-template-columns: repeat( auto-fit, minmax( 150px, 1fr ) );
+  justify-content: center;*/
+  margin: 0;
+  background-image: url('../img/fondo.png');
+  background-position: center;
+  background-size: cover;
+  /*background-repeat: no-repeat;*/
+  min-height: 100vh;
+  font-family: 'Condiment', cursive !important;
+}
+
+#root {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  margin: 0;
+  height: 100vh;
+  /*background-color: #00000057;*/
+}
+
+.modal {
+  z-index: 1050 !important;
+}
